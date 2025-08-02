@@ -1,0 +1,10 @@
+[package]
+name = "shmem_wrapper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brennan Marx-Rennie <brennanmarxrennie@gmail.com>"]
+description = "A simple Rust wrapper for shared memory operations"
+license = "MIT"
+
+[dependencies]
+shared_memory = "0.12"      # or whatever version you use
